@@ -1,0 +1,1 @@
+index=* | eval latency=_indextime - _time | stats avg(latency) max(latency) min(latency) by source

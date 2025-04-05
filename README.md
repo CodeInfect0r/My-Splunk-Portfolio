@@ -1,2 +1,2 @@
 # My-Splunk-Portfolio
-Built a Splunk dashboard to monitor sample logs on Winsows 11.
+Ingested C: Drive data into splunk.

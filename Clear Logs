@@ -1,1 +1,2 @@
-* host=BOOBOO source="WinEventLog:Security" EventCode="1102"
+Search Query
+* host=insertHere source="WinEventLog:Security" EventCode="1102"

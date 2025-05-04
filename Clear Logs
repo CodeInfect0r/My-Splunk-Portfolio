@@ -1,2 +1,12 @@
-Search Query
+This repository is where I’m documenting my process of creating a Splunk dashboard focused on cyber defensive monitoring.
+
+One of the use cases I’m working on is detecting when Windows security logs are cleared, which could be a sign of malicious activity or tampering.
+Example Use Case: Log Clearing Detection
+
+I'm using the following SPL query to create a chart that shows events where the Windows Security log has been cleared:
+
 * host=insertHere source="WinEventLog:Security" EventCode="1102"
+
+This query searches for Event Code 1102, which indicates that the audit log was cleared on a Windows system. I plan to use this in a time chart panel to track when and where these events occur across hosts.
+
+As I build more panels and add more queries, I’ll update the documentation here.
